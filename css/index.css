@@ -4,3 +4,14 @@ table{
     margin: 20px auto;
     border-collapse: collapse;
 }
+/* Styling for table cells */
+th, td{
+    border:1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}  
+
+/* Header styling */
+th{
+    background-color: #f2f2f2;
+}

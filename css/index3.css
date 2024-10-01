@@ -1,0 +1,33 @@
+/* Hover effect for table row */
+tbody tr:hover{
+    background-color: #e0f7fa;
+}
+/* Basic table styling */
+table{
+    width:80% ;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* styling for table cells */
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header styling */
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Alternating row colors */
+tbody tr:nth-of-type(even){
+    background-color: #f9f9f9;
+}
+/* Hover effect for table row */
+tbody tr:hover{
+    background-color: #e0f7fa;
+    transition:background-color 0.3s ease;
+}
